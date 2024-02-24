@@ -3,7 +3,6 @@ layout: page
 title: About Legal Negócio 
 permalink: /about/
 ---
-### About Legal Negócio
 
 Expertise: Our team comprises seasoned legal professionals with extensive experience in contract law. From drafting and negotiation to dispute resolution, we possess the expertise to handle a wide array of contractual matters.
 

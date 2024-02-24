@@ -3,7 +3,6 @@ layout: page
 title: Legal Negócio Services
 permalink: /services/
 ---
-### Legal Negócio Services
 
 Contract Drafting and Review: From simple agreements to complex commercial contracts, we offer comprehensive drafting and review services to ensure our clients' interests are protected.
 

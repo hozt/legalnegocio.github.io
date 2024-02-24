@@ -3,6 +3,6 @@ layout: default
 title: Legal Negócio
 ---
 
-![Logo]({{ site.baseurl }}/images/legalnegocio.png){: .right}
+### Welcome to Legal Negóciox - Your Trusted Partner in Legal Solutions
 
-### Legal Negóciox`x```
+At Legal Negóciox, we understand the complexities and challenges businesses face in today's dynamic legal landscape. As a premier legal contract law firm, we are committed to providing tailored, strategic solutions that empower businesses to navigate legal intricacies with confidence and success.

@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: Legal Negócio
 ---
 
 ![Logo]({{ site.baseurl }}/images/legalnegocio.png){: .right}
 
-### Legal Negócio
+### Legal Negóciox`x```

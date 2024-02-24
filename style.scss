@@ -1,0 +1,444 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 15px 0;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead .container {
+  margin-bottom: 10px;
+  border-bottom: 1px solid $lightGray;
+}
+
+.masthead {
+  padding: 10px 0;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+.store-icon {
+    color: #cf2b24;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include mobile {
+        font-size: 1.0em;
+    }
+}
+
+nav {
+  float: right;
+  margin-top: 23px;
+  margin-right: 10px;
+  font-family: $helveticaNeue;
+  font-size: 20px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 17px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post .entry a {
+    color: $black;
+    text-decoration: none;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+    blockquote {
+        margin: 1.8em .8em;
+        border-left: 2px solid $gray;
+        padding: 0.1em 1em;
+        color: $gray;
+        font-style: italic;
+    }
+
+    .comments {
+        margin-top: 10px;
+    }
+
+    .read-more {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+}
+
+.wrapper-footer {
+  margin-top: 60px;
+  clear: both;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.post img {
+  max-height: 400px;
+}
+
+.posts img {
+  max-height: 300px;
+}
+
+.post img:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.page img {
+  max-height: 400px;
+}
+
+.right {
+  float: right;
+  margin-left: 20px;
+}
+
+.left {
+  float: left;
+  margin-right: 20px;
+}
+
+.posts .post .right {
+  float: left;
+  margin: -10px 20px 0 20px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.posts .post {
+  clear: both;
+  min-height: 215px;
+}
+
+@include mobile {
+  .right {
+    float: none;
+    margin-left: 0;
+  }
+  .mobile {
+    display: block;
+  }
+  .not-mobile {
+    display: none;
+  }
+}
+
+@include not-mobile {
+  .mobile {
+    display: none;
+  }
+  .not-mobile {
+    display: block;
+  }
+}
+
+hr {
+    border-top: 1px solid $lightGray;
+}
+
+.copyright {
+    font-size: 0.8em;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+// @import "svg-icons";
+
+@font-face {
+    font-family: 'fontello';
+    src: url('font/fontello.eot?61509842');
+    src: url('font/fontello.eot?61509842#iefix') format('embedded-opentype'),
+         url('font/fontello.woff2?61509842') format('woff2'),
+         url('font/fontello.woff?61509842') format('woff'),
+         url('font/fontello.ttf?61509842') format('truetype'),
+         url('font/fontello.svg?61509842#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?61509842#fontello') format('svg');
+    }
+  }
+  */
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+  
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+  
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+  
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+  
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+  
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+  
+  .icon-basket:before { content: '\e800'; } /* '' */
+  .icon-facebook:before { content: '\f09a'; } /* '' */
+  .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon {
+    font-size: 1.4em;
+    margin: 0 10px;
+}

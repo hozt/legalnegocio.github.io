@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+    <body>
+    <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead clearfix">
+                <div class="site-info">
+                    <a href="{{ site.baseurl }}/">
+                        <img src="{{ site.baseurl }}/images/header.jpg" class="not-mobile" />
+                        <img src="{{ site.baseurl }}/images/header-mobile.jpg" class="mobile" />
+                    </a>
+                </div>
+
+                <nav>
+                    <a href="https://rte52.com/curt-evans-store/" alt="Down/up Store" class="store-icon">
+                        Store
+                    </a>
+                    <a href="{{ site.baseurl }}/">home</a>
+                    <a href="{{ site.baseurl }}/blog">blog</a>
+                    <a href="{{ site.baseurl }}/about">about</a>
+                    <a href="{{ site.baseurl }}/portfolio">portfolio</a>
+                    <a href="{{ site.baseurl }}/custom">custom</a>
+                    <a href="{{ site.baseurl }}/faq">faq</a>
+                    <a href="{{ site.baseurl }}/contact">contact</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+        {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+            <footer class="footer copyright">
+                Copyright &copy; {{ site.time | date: '%Y' }} Down/Up Design all rights reserved
+            </footer>
+        </div>
+    </div>
+
+    {% include analytics.html %}
+    </body>
+</html>

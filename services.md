@@ -4,6 +4,8 @@ title: Legal Negócio Services
 permalink: /services/
 ---
 
+![Meeting]({{ site.baseurl }}/images/meeting.jpg){: .right}
+
 Contract Drafting and Review: From simple agreements to complex commercial contracts, we offer comprehensive drafting and review services to ensure our clients' interests are protected.
 
 Contract Negotiation: Our skilled negotiators advocate on behalf of our clients to secure favorable terms and mitigate risks in contract negotiations.

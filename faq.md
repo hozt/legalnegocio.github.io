@@ -4,6 +4,8 @@ title: Frequently Asked Questions
 permalink: /faq/
 ---
 
+![Meeting]({{ site.baseurl }}/images/meeting2.jpg){: .right}
+
 Welcome to the FAQ page of [Your Law Firm's Name], where we aim to address common inquiries regarding business legal contracts. Below are answers to some of the questions frequently asked by our clients:
 
 1. What is a business legal contract?

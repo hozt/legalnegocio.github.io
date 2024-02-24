@@ -4,6 +4,8 @@ title: About Legal Negócio
 permalink: /about/
 ---
 
+![About]({{ site.baseurl }}/images/women.jpg){: .right}
+
 Expertise: Our team comprises seasoned legal professionals with extensive experience in contract law. From drafting and negotiation to dispute resolution, we possess the expertise to handle a wide array of contractual matters.
 
 Tailored Solutions: We recognize that every business is unique. That's why we take a personalized approach to every case, crafting bespoke solutions that align with our clients' specific needs, objectives, and industry nuances.

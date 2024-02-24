@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact/
 ---
 
-Ready to experience the difference of working with a trusted legal partner? Contact us today to schedule a consultation. Let [Firm Name] be your guide to achieving legal peace of mind and unlocking new opportunities for your business.
+![Meeting]({{ site.baseurl }}/images/contact.jpg){: .right}
+
+Ready to experience the difference of working with a trusted legal partner? Contact us today to schedule a consultation. Let Legal Negocio be your guide to achieving legal peace of mind and unlocking new opportunities for your business.
 
 Phone: 
 

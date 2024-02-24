@@ -1,10 +1,8 @@
 ---
 layout: page
-title: FAQ 
+title: Frequently Asked Questions 
 permalink: /faq/
 ---
-
-Frequently Asked Questions
 
 Welcome to the FAQ page of [Your Law Firm's Name], where we aim to address common inquiries regarding business legal contracts. Below are answers to some of the questions frequently asked by our clients:
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Legal Negócio 
+title: About Legal Negocio 
 permalink: /about/
 ---
 

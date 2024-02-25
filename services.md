@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Legal Negócio Services
+title: Legal Negocio Services
 permalink: /services/
 ---
 
